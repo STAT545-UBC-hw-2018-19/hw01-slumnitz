@@ -21,7 +21,6 @@ This repository includes:
  Markdown practice | about_me.md 
  Data Exploration | 
  Data Exploration | 
----------|------------
 
 ## Who am I?
 
