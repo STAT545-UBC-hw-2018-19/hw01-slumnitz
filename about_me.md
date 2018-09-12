@@ -1,7 +1,7 @@
 
 # STAT 545 - Homework 1
 
-This repository contains my first homework assignment for the R course [STATS 545](http://stat545.com). A description of the assignment can be found [here][(ttp://stat545.com/Classroom/assignments/hw01/hw01.html) and important information about the course can be found in the [course classroom](http://stat545.com/Classroom/).
+This repository contains my first homework assignment for the R course [STATS 545](http://stat545.com). A description of the assignment can be found [here][(http://stat545.com/Classroom/assignments/hw01/hw01.html) and important information about the course can be found in the [course classroom](http://stat545.com/Classroom/).
 
 **Navigating through `hw01-slumnitz`**:
 
@@ -15,13 +15,13 @@ This repository includes:
 
 **Files**:
 
-| topic | file |
-----------------
-| assignment | hw01_instructions.md |
-| Markdown practice | about_me.md |
-| Data Exploration | |
-| Data Exploration | |
----------------------
+ topic | file 
+--------|-------
+ assignment | hw01_instructions.md 
+ Markdown practice | about_me.md 
+ Data Exploration | 
+ Data Exploration | 
+---------|------------
 
 ## Who am I?
 
