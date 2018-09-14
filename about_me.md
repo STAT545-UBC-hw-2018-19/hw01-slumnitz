@@ -19,8 +19,8 @@ This repository includes:
 --------|-------
  assignment | hw01_instructions.md 
  Markdown practice | about_me.md 
- Data Exploration | 
- Data Exploration | 
+ Data Exploration | hw01_dataset_exploration.md
+ Data Exploration | hw01_dataset_exploration.Rmd
 
 ## Who am I?
 
