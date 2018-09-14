@@ -1,0 +1,64 @@
+---
+title: "hw01_dataset_exploration"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Dataset exploration
+
+In this document I will explore a dataset in R. 
+
+First of all, lets download an easy accessible or in-build dataset in R. Once called `data()` a new file shows you which pre-build datasets are available in the package "datasets". I decided to look at the dataset *mtcars* (Motor Trend Car Road Tests):
+
+```{r data}
+# Load data
+data(mtcars)
+
+# look at the first rows in the dataset
+head(mtcars)
+```
+
+I can also look at the last couple of rows in the dataset. FOr example, I would like to look at the last 3 rows in the dataset:
+
+```{r}
+tail(mtcars, 3)
+```
+
+I wonder how many rows this dataset has:
+
+```{r}
+nrow(mtcars)
+```
+
+To find out more about the dataset I can also simply type `?mtcars` after I loaded the dataset in the console. Furthermore, I can look at the `summay`:
+
+```{r}
+summary(mtcars)
+```
+
+
+## Plotting data
+
+I am also curious how easy it is to plot data.
+I would like to test this on the `mtcars` dataset. 
+I can for example explore the relationship between `hp` (the Gross horsepower) and `mpg` (Miles/(US) gallon.
+
+Here fore I woudl like to inspect the specific columns first:
+
+```{r}
+hp = mtcars$hp
+summary(hp)
+```
+```{r}
+summary(mtcars$mpg)
+```
+
+Now lets plot the relationship:
+
+```{r relationship, echo=FALSE}
+plot(hp~mpg,mtcars)
+```
+
